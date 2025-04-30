@@ -1,0 +1,29 @@
+.about-page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.about-content {
+  padding-right: 50px;
+}
+
+.about-content p:first-child {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+/* Mobile Header Styles (up to 480px) */
+@media (max-width: 1000px) {
+  .about-page {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-content {
+    padding-right: 0;
+  }
+
+  .about-content p:first-child {
+    font-size: 1.3rem;
+  }
+}

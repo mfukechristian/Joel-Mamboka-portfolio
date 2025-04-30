@@ -1,0 +1,120 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+.logo {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo.active {
+  text-decoration: underline;
+}
+
+.social a {
+  font-size: 1.2rem;
+}
+
+/* Mobile Header Styles (up to 480px) */
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    display: block;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  .social a {
+    font-size: 1.5rem;
+  }
+}
+
+/* Default Header Styles (for larger screens) */
+@media (min-width: 481px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  nav ul li a.active {
+    text-decoration: underline;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    margin-right: 50px;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .logo.active {
+    text-decoration: underline;
+  }
+
+  .social a {
+    font-size: 1.2rem;
+  }
+}
