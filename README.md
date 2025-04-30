@@ -2,6 +2,9 @@
 
 This repository contains the source code for the personal portfolio website of Joel Mamboka.
 
+![image](https://github.com/user-attachments/assets/414a798b-d966-4050-a268-6c73fdad5c93)
+
+
 ## Overview
 
 This website showcases Joel Mamboka's work, provides information about him, and offers a way for visitors to get in touch. It is built using React and features a responsive design to ensure a consistent experience across different devices.
