@@ -29,8 +29,8 @@ This website showcases Joel Mamboka's work, provides information about him, and 
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository_url>
-    cd <repository_name>
+    git clone https://github.com/mfukechristian/Joel-Mamboka-portfolio.git
+    cd Joel-Mamboka-portfolio
     ```
 
 2.  **Install dependencies:**
