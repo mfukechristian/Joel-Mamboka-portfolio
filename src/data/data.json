@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "src": "/images/images1.jpg",
+    "src": "https://ik.imagekit.io/06ua5mbab/images/images1.jpg",
     "alt": "Image 1"
   },
   {
     "id": 2,
-    "src": "/images/images2.jpg",
+    "src": "https://ik.imagekit.io/06ua5mbab/images/images2.jpg",
     "alt": "Image 2"
   },
   {
     "id": 3,
-    "src": "/images/images3.jpg",
+    "src": "https://ik.imagekit.io/06ua5mbab/images/images3.jpg",
     "alt": "Image 3"
   },
   {
     "id": 4,
-    "src": "/images/images4.jpg",
+    "src": "https://ik.imagekit.io/06ua5mbab/images/images4.jpg",
     "alt": "Image 4"
   },
   {
     "id": 5,
-    "src": "/images/images5.jpg",
+    "src": "https://ik.imagekit.io/06ua5mbab/images/images5.jpg",
     "alt": "Image 5"
   }
 ]

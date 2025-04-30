@@ -1,5 +1,4 @@
 import React from "react";
-import profileImage from "../assets/about.jpeg";
 import "./../styles/AboutPage.css";
 
 const AboutPage = () => {
@@ -31,7 +30,10 @@ const AboutPage = () => {
         </p>
       </div>
       <div className="about-profile">
-        <img src={profileImage} alt="profile" />
+        <img
+          src="https://ik.imagekit.io/06ua5mbab/images/about.jpeg?updatedAt=1746038974362"
+          alt="profile"
+        />
       </div>
     </section>
   );
